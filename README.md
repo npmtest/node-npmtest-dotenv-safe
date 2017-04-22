@@ -1,6 +1,7 @@
-# npmtest-dotenv-safe [![npm package](https://img.shields.io/npm/v/npmtest-dotenv-safe.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dotenv-safe) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dotenv-safe.svg)](https://travis-ci.org/npmtest/node-npmtest-dotenv-safe)
+# npmtest-dotenv-safe
 
-test coverage for  [dotenv-safe (v4.0.3)](https://github.com/rolodato/dotenv-safe#readme)
+#### basic test-coverage for  [dotenv-safe (v4.0.3)](https://github.com/rolodato/dotenv-safe#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-dotenv-safe.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dotenv-safe) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dotenv-safe.svg)](https://travis-ci.org/npmtest/node-npmtest-dotenv-safe)
+
 #### Load environment variables from .env and ensure they are defined
 
 [![NPM](https://nodei.co/npm/dotenv-safe.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/dotenv-safe)
@@ -83,7 +84,8 @@ test coverage for  [dotenv-safe (v4.0.3)](https://github.com/rolodato/dotenv-saf
         "pretest": "./node_modules/eslint/bin/eslint.js index.js config.js MissingEnvVarsError.js test/.",
         "test": "HELLO=fromTheOtherSide mocha"
     },
-    "version": "4.0.3"
+    "version": "4.0.3",
+    "bin": {}
 }
 ```
 
